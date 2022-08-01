@@ -36,5 +36,6 @@ public class StudentService {
                     "Student with id " + studentId + " does not exists");
         }
         studentRepository.deleteById(studentId);
+
     }
 }
